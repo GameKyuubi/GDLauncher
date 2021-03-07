@@ -5,6 +5,7 @@ import { extractFull } from 'node-7z';
 import jimp from 'jimp/es';
 import makeDir from 'make-dir';
 import { promisify } from 'util';
+// eslint-disable-next-line no-unused-vars
 import { ipcRenderer } from 'electron';
 import path from 'path';
 import crypto from 'crypto';
